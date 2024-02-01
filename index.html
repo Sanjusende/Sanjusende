@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Restorent Landing Page Design</title>
+    <!-- link icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<!-- sm: -->
+<!-- lg: -->
+
+<body>
+    <main class="w-full h-full p-10 ">
+        <!-- desktop header  -->
+        <header class="w-full h-20 max-sm:hidden lg:block">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu">
+                    <ul class="flex gap-10 font-bold">
+                        <li><a href="#" class="hover:text-lime-500">Home</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Product</a></li>
+                        <li><a href="#" class="hover:text-lime-500">Recipe</a></li>
+                        <li><a href="#" class="hover:text-lime-500">About</a></li>
+                    </ul>
+                </div>
+                <div class="log-btn flex gap-4">
+                    <button
+                        class="lg:bg-orange-400 sm:bg-blue-400  px-8 py-2 font-bold rounded-3xl text-white shadow-lg">Log
+                        in </button>
+                    <button class="bg-orange-100 px-8 py-2 font-bold rounded-3xl text-amber-500 shadow-lg">Sign Up
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <!-- mobile header -->
+        <header class="w-full h-20 max-sm:block lg:hidden">
+            <nav class="flex justify-between items-center h-full p-5 ">
+                <div class="menu font-bold">
+                    logo
+                </div>
+                <div>
+                    <i class="ri-menu-2-line"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- ..........................Hero section start..................... -->
+        <section class=" flex  w-full h-100vh gap-3 rounded-lg shadow-2xl ">
+            <article class="  w-2/4 h-full  shadow-2xl ">
+                <!-- left side -->
+                <div class="left-box bg-green-50 rounded-lg  ">
+                    <img class="h-70" src="https://restorent-landing-page.netlify.app/burger-removebg-preview.png"
+                        alt="">
+                    <h1 class="text-4xl font-bold flex justify-center items-center">classic Burger</h1>
+
+                    <div class="flex justify-between mt-10 px-20 ">
+                        <button class="border-0 drop-shadow ">Fat- <span class="font-bold">26g</span></button>
+                        <button class=" border-0 drop-shadow  ">Saturated- <span class="font-bold">3g</span></button>
+                        <button class=" border-0 drop-shadow ">Suger-<span class="font-bold">18g</span></button>
+                        <button class=" border-0 drop-shadow ">Salt-<span class="font-bold">1g</span></button>
+                    </div>
+
+                    <p class=" flex items-center justify-center mt-10 px-20">The classic burger is an all time BBQ
+                        favourite! This super easy homemade beef burger recipe gives you delicious patties, packed
+                        with onions and herbs for extra flavour, that are perfect for topping with cheese, lettuce
+                        and tomato, and sandwiching between floury buns.</p>
+
+                    <div class="flex justify-between px-20 mt-10">
+
+                        <span class="border-0 p-3 bg-green-500 rounded-xl w-20  font-bold">- 0 +</span>
+
+                        <h1 class="font-bold text-4xl ">$16</h1>
+                        <i
+                            class="ri-shopping-cart-2-line text-emerald-400text-emerald-400 border-0 p-3 bg-green-500 rounded-xl w-40">:Add
+                            to Card</i>
+
+                    </div>
+            </article>
+
+            <article class="flex flex-col w-2/4 h-full gap-5 shadaw-2xl ">
+                <!-- right side -->
+                <div class="flex w-full gap-5">
+
+                    <div class="box1 bg-green-50 rounded-lg ">
+                        <img class="h-40"
+                            src="https://restorent-landing-page.netlify.app/double_burger-removebg-preview.png" alt="">
+                        <h1 class="text-2xl font-bold flex justify-center items-center">Doiuble Burger</h1>
+                        <p>Lorem ipsum dolor sit amet aperiam odio non pariatur, quia atque dolorem hic, nemo cupiditate
+                            distinctio! Vero incidunt vel reiciendis.</p>
+                        <div class="flex justify-between px-3 mt-10">
+
+                            <span
+                                class="border-0 p-3 bg-green-500 rounded-xl w-20  flex justify-center items-center font-bold">-
+                                0 +</span>
+
+                            <h1 class="font-bold text-lg ">$18</h1>
+                            <i
+                                class="ri-shopping-cart-2-line text-emerald-400text-emerald-400 border-0 p-1 bg-green-500 rounded-xl w-10 flex items-center justify-center"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="box2 bg-green-50 rounded-lg shadaw-2xl">
+                        <img class="h-40 "
+                            src="https://restorent-landing-page.netlify.app/green_burger-removebg-preview.png" alt="">
+                        <h1 class="text-2xl font-bold flex justify-center items-center">Green Burger</h1>
+                        <p>Lorem ipsum dolor sit amet aperiam odio non pariatur, quia atque dolorem hic, nemo cupiditate
+                            distinctio! Vero incidunt vel reiciendis.</p>
+                        <div class="flex justify-between px-3  mt-10">
+
+                            <span
+                                class="border-0 p-3 bg-green-500 rounded-xl w-20  flex justify-center items-center font-bold">-
+                                0 +</span>
+
+                            <h1 class="font-bold text-lg ">$20</h1>
+                            <i
+                                class="ri-shopping-cart-2-line text-emerald-400text-emerald-400 border-0 flex justify-center items-center bg-green-500 rounded-xl w-10"></i>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex w-full gap-5">
+                    <div class="box3 bg-green-50 rounded-lg shadaw-2xl"><img class="h-40"
+                            src="https://restorent-landing-page.netlify.app/chili-removebg-preview.png" alt="">
+                        <h1 class="text-2xl font-bold flex justify-center items-center">Tajchili Burger</h1>
+                        <p>Lorem ipsum dolor sit amet aperiam odio non pariatur, quia atque dolorem hic, nemo cupiditate
+                            distinctio! Vero incidunt vel reiciendis.</p>
+                        <div class="flex justify-between  mt-10">
+
+                            <span
+                                class="border-0 p-3 bg-green-500 rounded-xl w-20  flex justify-center items-center font-bold">-
+                                0 +</span>
+
+                            <h1 class="font-bold text-lg ">$22</h1>
+                            <i
+                                class="ri-shopping-cart-2-line text-emerald-400text-emerald-400 border-0 p-1 bg-green-500  flex justify-center items-center rounded-xl w-10"></i>
+
+                        </div>
+                        
+
+
+                    </div>
+                    <div class="box4 bg-green-50 rounded-lg shadaw-2xl"><img class="h-40"
+                            src="https://restorent-landing-page.netlify.app/helthy-removebg-preview.png" alt="">
+                        <h1 class="text-2xl font-bold flex justify-center items-center">Healthi Burger</h1>
+                        <p>Lorem ipsum dolor sit amet aperiam odio non pariatur, quia atque dolorem hic, nemo cupiditate
+                            distinctio! Vero incidunt vel reiciendis.</p>
+                        <div class="flex justify-between  mt-10">
+
+                            <span
+                                class="border-0 p-3  bg-green-500 rounded-xl w-20 flex justify-center items-center font-bold">-
+                                0 +</span>
+
+                            <h1 class="font-bold text-lg ">$14</h1>
+                            <i
+                                class="ri-shopping-cart-2-line text-emerald-400text-emerald-400 border-0 p-1 flex justify-center items-center bg-green-500 rounded-xl w-10"></i>
+
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <!-- ..........................Hero section start..................... -->
+
+    </main>
+</body>
+
+</html>
