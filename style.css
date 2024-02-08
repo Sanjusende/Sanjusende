@@ -1,0 +1,36 @@
+*{
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+
+}
+html,body{
+Width:100%;
+Height:100%;
+}
+:root{
+    --bg-color:#1f242d;
+    --second-bg:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+.icon{
+
+padding: .5rem .5rem;
+border-radius: 1rem;
+border: 2px solid var(--main-color);
+}
+
+
+li >a{
+    color: var(--main-color);
+}
+
+
+.frontend{
+    color: var(--main-color);
+}
